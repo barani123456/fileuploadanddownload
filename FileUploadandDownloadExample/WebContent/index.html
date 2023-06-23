@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<title>ファイルのアップロードとダウンロード</title>
+<link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<!--     <div>
+        <button id="upload">upload</button>
+        <span id="download"></span>
+    </div>
+    <div>
+        <input type="file" id="upload-file" />
+        <textarea id="upload-text" readonly></textarea>
+    </div>
+    <script src="./js/index.js"></script> -->
+
+	<form action="UploadDownloadFileServlet" method="post"
+		enctype="multipart/form-data">
+		Select File to Upload:<input type="file" name="fileName"> <br>
+		<input type="submit" value="Upload">
+	</form>
+
+
+</body>
+</html>
